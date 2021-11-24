@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
@@ -16,33 +17,62 @@
             <a href="contato.html"> Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Milton</h1>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae perferendis quam delectus assumenda
-        esse sed consequuntur, quod repellat minima, officia in inventore animi fuga reprehenderit odit ratione commodi
-        aspernatur?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nobis vero ratione doloremque quas laboriosam
-        dicta quisquam facere ipsam. Vero voluptates dolorum labore cupiditate molestias commodi libero eaque enim
-        impedit.
-    </p>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At accusantium itaque perspiciatis eum, aliquam
-        eligendi. Magni iure iste quia ducimus ea voluptatem hic repellendus blanditiis corporis rerum! Dolorum,
-        deleniti officia?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate quo, consequatur earum deleniti non
-        placeat dolorem rem dicta pariatur cumque libero vitae deserunt voluptatibus? Iste molestias doloribus itaque
-        commodi?
-    </p>
+    <h1 class="center">Sobre o Milton</h1>
+    <div class="container">
 
-    <img src="assets/img/india.jpg" alt="Foto do criador desse conteudo">
+        <div>
+            <img class="br-50 wd-300 p-30" src="assets/img/india.jpg" alt="Foto do criador desse conteudo">
+        </div>
 
-    <h2>Meu video predileto</h2>
+        <div class="p-30">
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore molestiae perferendis quam delectus assumenda
+                esse sed consequuntur, quod repellat minima, officia in inventore animi fuga reprehenderit odit ratione commodi
+                aspernatur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nobis vero ratione doloremque quas laboriosam
+                dicta quisquam facere ipsam. Vero voluptates dolorum labore cupiditate molestias commodi libero eaque enim
+                impedit.
+            </p>
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At accusantium itaque perspiciatis eum, aliquam
+                eligendi. Magni iure iste quia ducimus ea voluptatem hic repellendus blanditiis corporis rerum! Dolorum,
+                deleniti officia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate quo, consequatur earum deleniti non
+                placeat dolorem rem dicta pariatur cumque libero vitae deserunt voluptatibus? Iste molestias doloribus itaque
+                commodi?
+            </p>
+        </div>
+        
+    </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BNaMTFgw4rw?start=105"
+    <h2 class="center">Meu video predileto</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BNaMTFgw4rw?start=105"
         frameborder="3"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
+    </div>
+
+    <hr>    
+    <footer>
+        <div class="container">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Milton Viegas &Copy
+        </p>
+    </footer>
 
 </body>
 
